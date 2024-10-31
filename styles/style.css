@@ -39,7 +39,7 @@ html {
 
 a {
   text-decoration: none;
-  cursor: url(/01-mi-primera-web/img/icon_52.png), auto;
+  cursor: url(/img/icon_52.png), auto;
   color: rgba(255, 255, 255, 0.734);
 }
 
@@ -291,7 +291,7 @@ a:hover {
 
   #check:checked ~ ul {
     left: 0%;
-    display: block
+    display: block;
   }
 
   .ul li {
@@ -307,8 +307,4 @@ a:hover {
   #check:checked ~ .checkbtn {
     color: rgba(234, 127, 6, 0.823);
   }
-
-  /* Formulario */
-
-  
 }

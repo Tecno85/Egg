@@ -1,3 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #0c151d;
+  font-family: "Exo 2", sans-serif;
+}
+
 /* Header */
 /* Menú Navegación */
 .container {
@@ -9,7 +19,7 @@
 }
 
 .icon {
-  margin: 1rem 0rem 0rem 4rem;
+  margin: 1rem 0rem 1rem 4rem;
   align-items: center;
   border-radius: 8px;
   border: 2px solid rgba(255, 255, 255, 0.612);
@@ -45,7 +55,7 @@
 
 a {
   text-decoration: none;
-  cursor: url(/01-mi-primera-web/img/icon_52.png), auto;
+  cursor: url(/img/icon_52.png), auto;
   color: rgba(255, 255, 255, 0.734);
 }
 
@@ -60,8 +70,9 @@ a:hover {
   color: rgba(234, 128, 6, 0.751);
   font-size: 2.2rem;
   text-align: center;
-  margin: 30px;
-  padding: 5px;
+  margin: 4rem 0rem 3rem 0rem;
+  /* margin: 30px;
+  padding: 5px; */
   font-family: "Titillium Web", sans-serif;
 }
 
