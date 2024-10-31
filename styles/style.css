@@ -201,7 +201,7 @@ a:hover {
   float: right;
   line-height: 80px;
   margin-right: 40px;
-  cursor: url(/01-mi-primera-web/img/icon_52.png), auto;
+  cursor: url(/img/icon_52.png), auto;
   display: none;
 }
 
@@ -252,7 +252,7 @@ a:hover {
   }
 
   .ul li a {
-    color: rgba(240, 248, 255, 0.998);
+    color: rgba(240, 248, 255, 0.858);
     list-style: none;
     font-weight: 500;
     font-size: 0.8rem;
