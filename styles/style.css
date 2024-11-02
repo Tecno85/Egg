@@ -63,7 +63,6 @@ a:hover {
 }
 
 /* --Main-- */
-
 .div-imagen-ivan {
   display: flex;
   justify-content: center;
@@ -130,7 +129,6 @@ a:hover {
 }
 
 /* --Seccion-4-- */
-
 .imagenes-parrafos {
   display: flex;
   justify-content: center;
@@ -188,9 +186,11 @@ a:hover {
 #footer {
   align-items: center;
   color: rgba(255, 255, 255, 0.893);
-  width: 55rem;
+  width: 50rem;
   font-size: 1.125rem;
   font-weight: 600;
+  border-left: 3px solid rgba(255, 255, 255, 0.463);
+  border-right: 3px solid rgba(255, 255, 255, 0.463);
 }
 
 #frase {
@@ -234,8 +234,10 @@ a:hover {
   margin: 0.2rem 0rem 4.5rem;
   font-size: 0.9rem;
 }
-
+/* -------------------- */
 /* ----Media Queries----*/
+/* -------------------- */
+
 @media (max-width: 768px) {
   .container {
     background-color: #171f26;
@@ -319,7 +321,7 @@ a:hover {
     color: rgba(240, 248, 255, 0.858);
     list-style: none;
     font-weight: 500;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
 
   .icons {
@@ -327,14 +329,13 @@ a:hover {
   }
 
   /* --Generador de frases-- */
-
   #btn-generar {
     margin: 0.2rem;
     padding: 0.3rem;
     font-size: 0.9rem;
     font-weight: 500;
   }
-  
+
   #footer {
     align-items: center;
     color: rgba(255, 255, 255, 0.893);
@@ -344,6 +345,10 @@ a:hover {
   }
 
   /* --Footer-- */
+  .footer {
+    margin-top: 3rem;
+  }
+
   .parrafo-footer {
     color: rgba(255, 255, 255, 0.893);
     font-family: "Exo 2", sans-serif;
