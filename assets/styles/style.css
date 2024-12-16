@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -19,7 +21,7 @@ html {
   float: right;
   line-height: 80px;
   margin-right: 40px;
-  cursor: url(/img/icon_52.png), auto;
+  cursor: url(/), auto;
   display: none;
 }
 
@@ -55,7 +57,7 @@ html {
 
 a {
   text-decoration: none;
-  cursor: url(/img/icon_52.png), auto;
+  cursor: url(/assets/img/icon_cursor.png), auto;
   color: rgba(255, 255, 255, 0.734);
 }
 
@@ -177,7 +179,7 @@ a:hover {
   font-family: "Exo 2", sans-serif;
   font-size: 1.18rem;
   font-weight: 700;
-  cursor: url(/img/icon_52.png), auto;
+  cursor: url(/assets/img/icon_cursor.png), auto;
   color: rgba(255, 255, 255, 0.893);
   background-color: #0c151d85;
   border-radius: 1rem;
@@ -187,7 +189,8 @@ a:hover {
 #footer {
   align-items: center;
   color: rgba(255, 255, 255, 0.893);
-  width: 50rem;
+  width: 40rem;
+  min-height: 4.5rem ;
   font-size: 1.125rem;
   font-weight: 600;
   border-left: 3px solid rgba(255, 255, 255, 0.463);

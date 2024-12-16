@@ -4,14 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi primera Página Web</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="img/icon_49.png" />
-    <link rel="stylesheet" href="styles/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
-      rel="stylesheet"
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/img/icon_favicon.png"
     />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
     <script
       src="https://kit.fontawesome.com/c9b87a4bee.js"
       crossorigin="anonymous"
@@ -20,7 +19,7 @@
 
   <body>
     <header class="container">
-      <img src="img/icon_42.png" class="icon" alt="Imagen Icono" />
+      <img src="./assets/img/icon_nav.png" class="icon" alt="Imagen Icono" />
       <nav>
         <input type="checkbox" id="check" title="checkbox" />
         <label for="check" class="checkbtn">
@@ -40,11 +39,14 @@
         </ul>
       </nav>
     </header>
-
     <main>
       <section>
         <div class="div-imagen-ivan">
-          <img src="img/Ivan.jpg" alt="Imagen" class="imagen-ivan" />
+          <img
+            src="./assets/img/imagen_ivan.jpg"
+            alt="Imagen"
+            class="imagen-ivan"
+          />
         </div>
 
         <h2 class="texto-imagen-ivan">Acerca de mi</h2>
@@ -67,7 +69,11 @@
       </section>
 
       <section class="seccion-2">
-        <img src="img/logos-2.jpg" alt="Lenguajes" class="imagen-lenguajes" />
+        <img
+          src="./assets/img/logos-tech.jpg"
+          alt="Lenguajes"
+          class="imagen-lenguajes"
+        />
       </section>
 
       <section class="seccion-3">
@@ -93,7 +99,7 @@
         <div class="imagenes-parrafos">
           <div class="estilos github">
             <img
-              src="img/icon_44.png"
+              src="./assets/img/icon_github.png"
               alt="Imagen GitHub"
               class="all-img img-github"
             />
@@ -107,7 +113,7 @@
 
           <div class="estilos markdown">
             <img
-              src="img/icon_47.png"
+              src="./assets/img/icon_markdown.png"
               alt="Imagen Markdown"
               class="all-img markdown"
             />
@@ -121,7 +127,11 @@
           </div>
 
           <div class="estilos git">
-            <img src="img/icon_45.png" alt="Imagen Git" class="all-img git" />
+            <img
+              src="./assets/img/icon_git.png"
+              alt="icon git"
+              class="all-img git"
+            />
             <p class="parrafo git">
               <i><strong class="palabra-negrita">Git</strong></i> es un sistema
               de control de versiones que permite a los desarrolladores rastrear
@@ -131,21 +141,19 @@
           </div>
         </div>
       </section>
+      <section class="generador-frase">
+        <button id="btn-generar">Generador de Frases</button>
+        <footer id="footer">
+          <p id="frase"></p>
+        </footer>
+      </section>
     </main>
-
-    <section class="generador-frase">
-      <button id="btn-generar">Generador de Frases</button>
-      <footer id="footer">
-        <p id="frase"></p>
-      </footer>
-    </section>
-
     <footer class="footer">
       <section class="class-icons">
         <div class="icon-facebook">
           <a href="https://www.facebook.com/profile.php?id=100090779631687"
             ><img
-              src="img/icon_35.png"
+              src="./assets/img/icon_facebook.png"
               alt="Icono Facebook"
               class="icons facebook"
           /></a>
@@ -154,7 +162,7 @@
         <div class="icon-youtube">
           <a href="https://www.youtube.com/@ivanmadrid6738">
             <img
-              src="img/icon_38.png"
+              src="./assets/img/icon_youtube.png"
               alt="Icono youtube"
               class="icons youtube"
           /></a>
@@ -163,7 +171,7 @@
         <div class="icon-linkedin">
           <a href="https://www.linkedin.com/feed/">
             <img
-              src="img/icon_37.png"
+              src="./assets/img/icon_linkedin.png"
               alt="Icono Linkedin"
               class="icons linkedin"
           /></a>
@@ -176,7 +184,6 @@
         </div>
       </section>
     </footer>
-
-    <script src="script.js"></script>
+    <script src="./assets/scripts/script.js"></script>
   </body>
 </html>
